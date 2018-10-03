@@ -13,3 +13,5 @@ publish:
 
 .PHONY: 
 	test
+lint:
+	npx eslint .
