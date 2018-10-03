@@ -2,6 +2,8 @@
   "name": "project_artur_brain_games",
   "version": "0.0.7",
   "description": "brain-games",
+  "description":"I do not know what will happen but something added",
+  
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -21,14 +23,22 @@
     "url": "git+https://github.com/turchinskki/project-lvl1-s356.git"
   },
   "keywords": [
-    "homepage"
+    "homepage",
+    "projectByHexlet/Artur"
   ],
   "author": "Artur Achtyamov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/turchinskki/project-lvl1-s356/issues"
   },
-  "homepage": "https://github.com/turchinskki/project-lvl1-s356#readme",
+  
+
+"homepage": "https://github.com/turchinskki/project-lvl1-s356#readme",
+
+
+"projectByHexlet/Artur":"https://github.com/turchinskki/project-lvl1-s356#babelrc",
+
+
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
