@@ -1,9 +1,10 @@
 {
   "name": "project_artur_brain_games",
-  "version": "0.0.10",
+  "version": "0.3.3",
   "description": "mini game 'Brain-games' launched from the console",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "engines": {
     "node": ">=8"
@@ -41,6 +42,7 @@
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
+    "diff": "^3.5.0",
     "readline-sync": "^1.4.9"
   }
 }

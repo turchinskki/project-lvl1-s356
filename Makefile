@@ -1,17 +1,15 @@
+
+
 install: 
-	npm install
+	sudo npm install -g project_artur_brain_games
 
 start:
 	npx babel-node -- src/bin/brain-games.js 
 
-test:
-	npm test
- 
-
 publish:
 	npm publish
 
-.PHONY: 
-	test
 lint:
 	npx eslint .
+even:
+	npx babel-node -- src/bin/brain-even.js
