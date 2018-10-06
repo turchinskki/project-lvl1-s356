@@ -3,4 +3,4 @@
  [![Build Status](https://travis-ci.org/turchinskki/project-lvl1-s356.svg?branch=master)](https://travis-ci.org/turchinskki/project-lvl1-s356)
  
 [brain-even](https://asciinema.org/a/7Cvjz5Qf3DPum9HbLyoXo5WdH)<br/>
-[brain-even](https://asciinema.org/a/d44mKenvbZH7xk8DLBHPPaNK3)
+[brain-calc](https://asciinema.org/a/d44mKenvbZH7xk8DLBHPPaNK3)
