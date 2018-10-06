@@ -1,12 +1,12 @@
 import readlineSync from 'readline-sync';
-import { getCalculate, getRandom } from '../functions';
+import { getCalculate, getRandom, winRound } from '../functions';
 
 const runCalc = () => {
   console.log('Welcome to the Brain Games! \nWhat is the result of the expression?\n');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\n`);
   const wellDone = () => console.log(`Congratulations, ${userName}!`);
-  for (let i = 1; i <= 3; i += 1) {
+  for (let round = 1; round <= winRound; round += 1) {
     const Number1 = getRandom();
     const Number2 = getRandom();
     const Marks = ['*', '-', '+'];
